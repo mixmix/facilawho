@@ -1,8 +1,19 @@
 # facilawho
 
-a one page app for finding facilitators at enspiral: http://facilawho.mixmix.io/
+A one page app for finding facilitators at enspiral: http://facilawho.mixmix.io/
 
-edit [facilitators.yml](https://github.com/mixmix/facilawho/blob/master/facilitators.yml) to change the view! 
+Edit [facilitators.yml](https://github.com/mixmix/facilawho/blob/master/facilitators.yml) to add your information!  
 (the app auto-deploys when you save changes here)
 
-let me know if you'd like editing priviledges
+---
+
+To run :
+
+1. npm i
+2. npm start
+
+(opens by default on localhost:5000)
+
+---
+
+Ps. let me know if you'd like editing priviledges
