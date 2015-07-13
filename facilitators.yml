@@ -1,5 +1,5 @@
 mix:
-  name: mix
+  name: Mix
   image: https://avatars1.githubusercontent.com/u/2665886?v=3&s=460
   slack: https://enspiral.slack.com/messages/@mix/
 
@@ -27,4 +27,9 @@ dick:
   name: Richard Bartlett
   image: https://avatars0.githubusercontent.com/u/970124?v=3&s=460
   slack: https://enspiral.slack.com/messages/@rich/ 
+  
+derek:
+  name: Derek Razo
+  image: https://pbs.twimg.com/profile_images/1897479009/309034_10150301453819149_592774148_7853409_1405505640_n.jpeg
+  slack: https://enspiral.slack.com/messages/@derek/ 
 
