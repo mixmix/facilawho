@@ -1,0 +1,34 @@
+{
+  "name": "facilawho",
+  "version": "1.0.0",
+  "description": "a one page app for finding facilitators at enspiral",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "bin/build",
+    "start": "node server.js",
+    "go": "npm run build && npm start",
+    "deploy": "git push heroku master",
+    "prod": "NODE_ENV=production npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mixmix/facilawho.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mixmix/facilawho/issues"
+  },
+  "homepage": "https://github.com/mixmix/facilawho",
+  "dependencies": {
+    "async": "^0.9.0",
+    "browserify": "^9.0.8",
+    "domquery": "^1.2.0",
+    "js-yaml": "^3.3.1",
+    "json-stringify-safe": "^5.0.1",
+    "request": "^2.55.0",
+    "routes": "^2.0.0",
+    "xhr": "^2.0.2"
+  }
+}

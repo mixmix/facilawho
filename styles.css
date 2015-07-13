@@ -1,0 +1,114 @@
+body {
+  color: #37362F;
+  background: rgb(243, 243, 243);
+}
+
+h1, .source-link, #loading, #how-to, .container.controls, .container.dependencies {
+  font-family: "opensans-light","opensans",sans-serif;
+  font-weight: 300;
+}
+
+h1 { 
+  font-size: 50px;
+  padding: 40px 0 10px;
+}
+
+a { 
+  color: #363434
+}
+
+.source-link {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+#loading {
+  text-align: center;
+  padding: 100px;
+}
+#loading p {
+  padding-left: 16px;
+}
+
+.facilitator {
+  float: left;
+  padding: 20px;
+  text-align: center;
+}
+
+.facilitator img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+main {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.container {
+  background: #ffffff;
+  padding: 0 20px;
+  margin: 0 20px;
+  padding-top: 10px;
+}
+
+.container.controls { 
+  position: relative;
+  padding: 0px 0px 20px 820px;
+}
+
+.container.controls button { 
+  position: absolute;
+}
+
+.container.target {
+  min-height: 1000px;
+  margin-bottom: 30px;
+  padding-bottom: 60px;
+}
+
+.container.dependencies { 
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.container.dependencies pre {
+  font-size: 14px;
+  padding: 15px 0 20px 20px;
+}
+
+.stitch-mark.visible {
+  border: 1px lightgrey dashed;
+  padding: 10px;
+  background-color: rgba(52, 233, 213, 0.39);
+}
+
+.stitch-mark .content.collapsed { 
+  display: inline-block;
+}
+.stitch-mark .content.collapsed.hidden{ 
+  display: none;
+}
+
+button { 
+  border: none;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+button.active {
+  background: rgba(52, 233, 213, 0.39);
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.hide, .hidden { 
+  display: none;
+}
+

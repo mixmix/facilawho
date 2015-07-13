@@ -1,0 +1,10 @@
+mix:
+  name: mix
+  image: https://avatars1.githubusercontent.com/u/2665886?v=3&s=460
+  slack: https://enspiral.slack.com/messages/@mix/
+
+jv: 
+  name: Joshua Vial
+  image: https://avatars3.githubusercontent.com/u/72309?v=3&s=460  
+  slack: https://enspiral.slack.com/messages/@joshua/
+
