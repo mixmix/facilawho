@@ -29,7 +29,7 @@ function handleResponse (err, resp, body) {
 
 
 function avatarify( facilitatorInfo ) {
-  return "<div class='facilitator'> <a href='"+ facilitatorInfo.slack +"' target='slack'><img src='" + facilitatorInfo.image + "'><br />" + facilitatorInfo.name + "</a></div>"
+  return "<div class='facilitator'> <a href='https://enspiral.slack.com/messages/@"+ facilitatorInfo.slack_username +"' target='slack'><img src='" + facilitatorInfo.image + "'><br />" + facilitatorInfo.name + "</a></div>"
 }
 
 //dom('.container.controls button.toggle-stitches').on('click', toggleStitches)
